@@ -1,0 +1,258 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head>
+    <meta name="robots" content="noindex" />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <meta name="viewport" content="user-scalable=1,width=device-width,initial-scale=1,maximum-scale=10" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <style>
+        :root { --baslik-fontu: "Poppins", sans-serif; --icerik-fontu: "Roboto", sans-serif; --baslik-font-boyutu: 18px; --icerik-font-boyutu: 16px; --baslik-font-weight: 600; --icerik-font-weight: 400; --tema-renk1: #ffa800; --tema-renk2: #141414; --tema-renk3: #ffffff; }
+    </style>
+
+
+
+    <link rel="preload" href="/d/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link rel="stylesheet" href="/d/aos.css" />
+    </noscript>
+
+    <link rel="stylesheet" href="/d/kritik.css" />
+    <link rel="stylesheet" href="/d/c.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div id="hamburger">
+    </div>
+    <header id="header">
+        <div class="container">
+            <div class="kapsul">
+                <div class="cl2 xs6 bir">
+                    <div class="telefon">
+                        <svg fill="#000000" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z" />
+                        </svg>
+                        <a href="https://wa.me/905326044029">+90 532 604 40 29</a>
+                    </div>
+                </div>
+                <div class="cl8 xs6 iki">
+                    <div class="logo">
+                        <a href="/">
+                            <figure>
+                                <img src="/d/r/logo.png" alt="logo" />
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="cl2 xs6 uc">
+                    <div class="request">
+                        <a href="/iletisim" class="hareketVer quote" alt="quote">TEKLİF AL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav id="megaMenu">
+        <ul class="ul1">
+            <li class="li1">
+                <ul class="ul2">
+                    <li class="li1"><a href="/">Anasayfa</a></li>
+                    <li class="li1">
+                        <a href="javascript:;" class="okKoy">Kurumsal</a>
+                        <div class="ulWrap2">
+                            <ul class="ul2">
+                                <li class="li2"><a href="/hakkimizda">Hakkımızda</a></li>
+                                <li class="li2"><a href="/kvkk-aydinlatma-metni">KVKK Aydınlatma Metni</a></li>
+                                <li class="li2"><a href="/gizlilik-politikasi">Gizlilik Politikası</a></li>
+                                <li class="li2"><a href="/cerez-politikasi">Çerez Politikası</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li1"><a href="/uygulama-alanlari">Uygulama Alanları</a></li>
+                    <li class="li1"><a href="/hizmetler">Hizmetler</a></li>
+                    <li class="li1"><a href="/subeler">Şubeler</a></li>
+                    <li class="li1"><a href="/blog">Blog</a></li>
+                    <li class="li1"><a href="/sss">SSS</a></li>
+                    <li class="li1"><a href="/iletisim">İletişim</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <asp:ContentPlaceHolder ID="CPH1" runat="server">
+        </asp:ContentPlaceHolder>
+    </main>
+
+    <ul class="sabit">
+        <li class="bir">
+            <a href="https://wa.me/905326044029" target="_blank">
+                <span>+90 (505) 747 42 84</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" version="1.1" id="svg8" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="1881161.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+                    <path id="path4" inkscape:connector-curvature="0" d="M16.6,14c-0.2-0.1-1.5-0.7-1.7-0.8c-0.2-0.1-0.4-0.1-0.6,0.1c-0.2,0.2-0.6,0.8-0.8,1c-0.1,0.2-0.3,0.2-0.5,0.1c-0.7-0.3-1.4-0.7-2-1.2c-0.5-0.5-1-1.1-1.4-1.7c-0.1-0.2,0-0.4,0.1-0.5c0.1-0.1,0.2-0.3,0.4-0.4c0.1-0.1,0.2-0.3,0.2-0.4c0.1-0.1,0.1-0.3,0-0.4c-0.1-0.1-0.6-1.3-0.8-1.8C9.4,7.3,9.2,7.3,9,7.3c-0.1,0-0.3,0-0.5,0C8.3,7.3,8,7.5,7.9,7.6C7.3,8.2,7,8.9,7,9.7c0.1,0.9,0.4,1.8,1,2.6c1.1,1.6,2.5,2.9,4.2,3.7c0.5,0.2,0.9,0.4,1.4,0.5c0.5,0.2,1,0.2,1.6,0.1c0.7-0.1,1.3-0.6,1.7-1.2c0.2-0.4,0.2-0.8,0.1-1.2C17,14.2,16.8,14.1,16.6,14 M19.1,4.9C15.2,1,8.9,1,5,4.9c-3.2,3.2-3.8,8.1-1.6,12L2,22l5.3-1.4c1.5,0.8,3.1,1.2,4.7,1.2h0c5.5,0,9.9-4.4,9.9-9.9C22,9.3,20.9,6.8,19.1,4.9 M16.4,18.9c-1.3,0.8-2.8,1.3-4.4,1.3h0c-1.5,0-2.9-0.4-4.2-1.1l-0.3-0.2l-3.1,0.8l0.8-3l-0.2-0.3C2.6,12.4,3.8,7.4,7.7,4.9S16.6,3.7,19,7.5C21.4,11.4,20.3,16.5,16.4,18.9" />
+                </svg>
+            </a>
+        </li>
+    </ul>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="cl3 xs12">
+                    <a href="/">
+                        <figure>
+                            <img src="/d/r/logo.png" alt="logo" />
+                        </figure>
+                    </a>
+                    <div class="aciklama">MHR İzoyap İzolasyon, zengin ürün ve hizmet çeşitliliğini toplumun her kesimine en hızlı ve etkili bir şekilde ulaştırma konusunda hızlı çözüm ağları ve alternatif dağıtım kanallarıyla öne çıkar. </div>
+                    <div class="linkler">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/mhrizoyapizolasyon" target="_blank" class="icon face" alt="Facebook">
+                                    <svg width="20px" height="20px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310" style="enable-background: new 0 0 310 310;" xml:space="preserve">
+                                        <path d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+		c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+		V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+		C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+		c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/mhrizoyapizolasyon/" target="_blank" class="icon inst" alt="İnstagram">
+                                    <svg width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
+                                        <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+                                    </svg>
+                                </a>
+
+                            </li>
+                            <%--  <li>
+                                <a href="javascript;" target="_blank" class="icon twit" alt="Twitter">
+                                    <svg fill="#000000" width="16" height="16" viewBox="-4 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                        <title>twitter</title>
+                                        <path d="M24 8.531c-0.688 1-1.5 1.844-2.469 2.563 0.031 0.219 0.031 0.438 0.031 0.656 0 6.5-4.938 14-14 14-2.781 0-5.375-0.844-7.563-2.219 0.375 0.031 0.781 0.094 1.188 0.094 2.313 0 4.406-0.813 6.094-2.125-2.188-0.031-3.969-1.5-4.594-3.438 0.281 0.063 0.625 0.094 0.938 0.094 0.438 0 0.906-0.063 1.313-0.188-2.281-0.438-3.969-2.406-3.969-4.781v-0.063c0.688 0.344 1.406 0.563 2.219 0.594-1.313-0.906-2.188-2.406-2.188-4.094 0-0.906 0.25-1.75 0.656-2.5 2.438 2.969 6.063 4.969 10.156 5.156-0.063-0.344-0.125-0.75-0.125-1.125 0-2.719 2.188-4.938 4.906-4.938 1.438 0 2.719 0.625 3.625 1.594 1.125-0.219 2.156-0.656 3.094-1.219-0.344 1.156-1.125 2.156-2.125 2.75 1-0.125 1.906-0.406 2.813-0.813z"></path>
+                                    </svg>
+                                </a>
+                            </li>--%>
+                            <li>
+                                <a href="https://www.youtube.com/@mhrizoyapizolasyon5404" target="_blank" class="icon yout" alt="Youtube">
+                                    <svg width="24px" height="24px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                                        <path fill="#fff" fill-rule="evenodd" d="M13.478 3.399c.6.161 1.072.634 1.234 1.234C15 5.728 15 8 15 8s0 2.272-.288 3.367a1.754 1.754 0 01-1.234 1.234C12.382 12.89 8 12.89 8 12.89s-4.382 0-5.478-.289a1.754 1.754 0 01-1.234-1.234C1 10.283 1 8 1 8s0-2.272.288-3.367c.162-.6.635-1.073 1.234-1.234C3.618 3.11 8 3.11 8 3.11s4.382 0 5.478.289zm-3.24 4.612l-3.645 2.1V5.9l3.644 2.11z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cl3 xs12">
+                    <div class="company">
+                        <span>Uygulama Alanları</span>
+                        <ul>
+                            <li><a href="/cati-izolasyonu">Çatı İzolasyonu</a></li>
+                            <li><a href="/dam-izolasyonu">Dam İzolasyonu</a></li>
+                            <li><a href="/bodrum-izolasyonu">Bodrum İzolasyonu</a></li>
+                            <li><a href="/teras-su-yalitimi">Teras Su Yalıtımı</a></li>
+                            <li><a href="/dis-cephe-yalitim">Dış Cephe Yalıtım</a></li>
+                            <li><a href="/endustriyel-bina-cati-izolasyonu">Endüstriyel Bina Çatı İzolasyonu</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cl3 xs12">
+                    <div class="company">
+                        <span>Hizmetler</span>
+                        <ul>
+                            <li><a href="/isi-yalitimi">Isı Yalıtımı</a></li>
+                            <li><a href="/su-yalitimi">Su Yalıtımı</a></li>
+                            <li><a href="/ses-yalitimi">Ses Yalıtımı</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cl3 xs12">
+                    <div class="company">
+                        <span>İletişim</span>
+                        <ul>
+                            <li><b>Kocaeli</b></li>
+                            <li><a href="https://wa.me/902623351114" target="_blank">+90 262 335 11 14</a></li>
+                            <li><a href="https://wa.me/905326044029" target="_blank">+90 532 604 40 29</a></li>
+                            <li><b>Konya</b></li>
+                            <li><a href="https://wa.me/903322555052" target="_blank">+90 332 255 50 52</a></li>
+                            <li><a href="https://wa.me/905323624229" target="_blank">+90 532 362 42 29</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="altMetin"><a href="https://www.devedijital.com/" target="_blank">devedijital.com</a> 💛 Tarafından Oluşturuldu</div>
+        </div>
+    </footer>
+    <script src="/d/min.js"></script>
+    <script src="/d/j.js"></script>
+
+    <script src="/d/aos.js"></script>
+    <script>
+        AOS.init();
+        window.addEventListener('load', function () {
+            AOS.refresh();
+        });
+
+    </script>
+     
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        if (typeof anasayfa != "undefined") {
+            var textWrapper1 = document.querySelector('.titleslider');
+            textWrapper1.innerHTML = textWrapper1.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            var textWrapper2 = document.querySelector('.aciklamaslider');
+            textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            anime.timeline({ loop: true })
+                .add({
+                    targets: '.titleslider .letter',
+                    translateX: [40, 0],
+                    translateZ: 0,
+                    opacity: [0, 1],
+                    easing: "easeOutExpo",
+                    duration: 1200,
+                    delay: (el, i) => 500 + 30 * i
+                }).add({
+                    targets: '.aciklamaslider .letter',
+                    translateX: [40, 0],
+                    translateZ: 0,
+                    opacity: [0, 1],
+                    easing: "easeOutExpo",
+                    duration: 1200,
+                    delay: (el, i) => 500 + 30 * i
+                }).add({
+                    targets: '.titleslider .letter',
+                    translateX: [0, -30],
+                    opacity: [1, 0],
+                    easing: "easeInExpo",
+                    duration: 1100,
+                    delay: (el, i) => 100 + 30 * i
+                }).add({
+                    targets: '.aciklamaslider .letter',
+                    translateX: [0, -30],
+                    opacity: [1, 0],
+                    easing: "easeInExpo",
+                    duration: 1100,
+                    delay: (el, i) => 100 + 30 * i
+                });
+        }
+
+    </script>
+</body>
+</html>

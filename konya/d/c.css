@@ -1,0 +1,190 @@
+/******/
+#uygulamaAlanlari { background-color: #e7e7e7; padding: 80px 0 50px 0; }
+#uygulamaAlanlari .kapsul { }
+#uygulamaAlanlari .kapsul .title { font-family: var(--baslik-fontu); color: var(--tema-renk1); font-size: 43px; text-align: center; font-weight: 600; }
+#uygulamaAlanlari .kapsul .aciklama { font-family: var(--icerik-fontu); padding: 0px 250px 20px 250px; line-height: 33px; color: var(--tema-renk2); text-align: center; font-size: 18px; font-weight: 400; }
+#uygulamaAlanlari .kutu { background: #ffffff; padding: 25px; margin: 15px; }
+#uygulamaAlanlari .kutu .buton { padding: 25px 0 10px 0; }
+#uygulamaAlanlari .kutu .buton a.incele { font-family: var(--icerik-fontu); color: #2d2d2d; background-color: var(--tema-renk1); font-size: 17px; padding: 10px 25px; border-radius: 5px; }
+#uygulamaAlanlari .kutu .title { font-family: var(--icerik-fontu); color: var(--tema-renk1); font-size: 23px; font-weight: 600; }
+#uygulamaAlanlari .kutu .aciklama { font-family: 'Roboto', sans-serif; color: var(--tema-renk2); font-size: 17px; line-height: 30px; font-weight: 400; }
+/******/
+#about { padding: 50px 0 70px 0; }
+#about .kapsol { }
+#about .kapsol .title { font-family: var(--baslik-fontu); color: var(--tema-renk1); font-size: 40px; font-weight: 600; padding: 32px 0; }
+#about .kapsol .aciklama { color: var(--tema-renk2); font-size: 17px; line-height: 27px; font-weight: 400; }
+#about .kapsol .aciklama p { font-family: 'Roboto', sans-serif; line-height: 28px; padding: 10px 50px 18px 0; }
+#about .kapsag .metin { font-family: 'Roboto', sans-serif; color: var(--tema-renk2); font-weight: 600; margin-left: 85px; padding: 35px 0px; }
+#about .kapsag .metin h2 { }
+#about .kapsag figure { }
+#about .kapsag figure img { width: 550px; }
+/******/
+#blog { background-color: #e7e7e7; padding: 70px 0; }
+#blog .kapsul { }
+#blog .kapsul .title { font-family: 'Roboto', sans-serif; color: var(--tema-renk1); font-size: 45px; font-weight: 600; text-align: center; }
+#blog .kapsul .aciklama { font-family: 'Roboto', sans-serif; color: var(--tema-renk2); font-size: 17px; line-height: 27px; font-weight: 400; text-align: center; padding: 0px 0 40px 0; }
+#blog .kap00 { margin: 15px; }
+#blog .kap00 figure { }
+#blog .kap00 figure img { }
+#blog .kap00 .title { /* padding: 15px 0; */ font-size: 18px; font-family: Roboto,sans-serif; color: var(--tema-renk1); font-weight: 700; }
+#blog .kap00 .aciklama { font-size: 16px; font-family: Roboto,sans-serif; color: var(--tema-renk2); line-height: 25px; margin: 0 0 10px 0; }
+#blog .kap00 a { font-size: 18px; font-family: Roboto,sans-serif; color: var(--tema-renk1); border-bottom: var(--tema-renk1); }
+/******/
+#hizmetler { padding: 70px 0; }
+#hizmetler .kapsul { }
+#hizmetler .kapsul .title { font-family: 'Roboto', sans-serif; color: var(--tema-renk1); font-size: 45px; font-weight: 600; text-align: center; }
+#hizmetler .kapsul .aciklama { font-family: 'Roboto', sans-serif; color: #242a56; font-size: 17px; line-height: 27px; font-weight: 400; text-align: center; padding: 0px 0 40px 0; }
+#hizmetler .kap00 { margin: 15px; }
+#hizmetler .kap00 figure { }
+#hizmetler .kap00 figure img { }
+#hizmetler .kap00 .title { font-size: 23px; font-family: Roboto,sans-serif; color: var(--tema-renk1); font-weight: 700; }
+#hizmetler .kap00 .aciklama { font-size: 16px; color: var(--tema-renk2); line-height: 28px; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; margin: 0 0 10px 0; }
+#hizmetler .kap00 a { font-size: 16px; font-family: Roboto,sans-serif; color: var(--tema-renk1); border-bottom: 1px solid var(--tema-renk1); }
+/******/
+#ourCustomer { padding: 0 0 50px 0; }
+#ourCustomer .kapsul { margin-top: 73px; }
+#ourCustomer .kapsul .title { font-family: 'Roboto', sans-serif; color: var(--tema-renk1); font-size: 45px; font-weight: 600; text-align: center; }
+#ourCustomer .kapsul .aciklama { font-family: 'Roboto', sans-serif; color: var(--tema-renk2); font-size: 17px; line-height: 27px; font-weight: 400; text-align: center; width: 650px; max-width: 100%; margin: 0 auto; }
+#ourCustomer .logolar { }
+#ourCustomer .logolar figure { }
+#ourCustomer .logolar figure img { max-width: 125px; margin: 0 auto; }
+/******/
+#wouldYou { padding: 85px 0; background-color: #e7e7e7; }
+#wouldYou .kapsul { background: #ffffff; padding: 25px; border-radius: 5px; }
+#wouldYou .kapsul .title { font-family: 'Roboto', sans-serif; color: var(--tema-renk1); font-size: 30px; font-weight: 600; padding: 15px 0; }
+#wouldYou .kapsul .aciklama { font-family: 'Roboto', sans-serif; color: var(--tema-renk2); font-size: 17px; line-height: 27px; width: 700px; font-weight: 400; max-width: 100%; }
+#wouldYou .kapsul .kap00 { font-family: 'Roboto', sans-serif; margin: 50px; }
+#wouldYou .kapsul .kap00 a { font-family: 'Roboto', sans-serif; color: var(--tema-renk2); background-color: var(--tema-renk1); font-size: 17px; padding: 13px 23px; border-radius: 5px; }
+/******/
+#concact { padding: 55px 0; }
+#concact h2 { font-size: 30px; color: var(--tema-renk2); }
+#concact .soll { }
+#concact .soll p { color: var(--tema-renk2); padding: 10px 0; line-height: 30px; }
+#concact .soll p strong { }
+#concact form { background-color: #eff2ff; padding: 20px; }
+#concact form .satir { padding: 10px 0; color: var(--tema-renk2); display: flex; }
+#concact form .satir label { text-transform: capitalize; width: 175px; margin-bottom: 10px; color: var(--tema-renk2); display: block; line-height: 17px; font-size: 14px; }
+#concact form .satir input { display: block; width: calc(100% - 175px); padding: .375rem .75rem; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529; background-color: #fff; background-clip: padding-box; border: 1px solid #ced4da; appearance: none; border-radius: 0; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; height: 38px; }
+#concact form .satir textarea { display: block; width: calc(100% - 175px); padding: .375rem .75rem; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529; background-color: #fff; background-clip: padding-box; border: 1px solid #ced4da; appearance: none; border-radius: 0; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+#concact form .satir img { width: 68%; }
+#concact form .satir button { color: var(--tema-renk2); display: block; font-weight: 400; line-height: 1.5; text-align: center; text-decoration: none; vertical-align: middle; cursor: pointer; background-color: transparent; border: 1px solid transparent; padding: .375rem .75rem; font-size: 1rem; border-radius: .25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; border-color: #212529; margin: 0 auto; width: 249px; }
+#concact form .satir button:hover { color: var(--tema-renk3); background-color: #242a56; display: block; font-weight: 400; line-height: 1.5; text-align: center; text-decoration: none; vertical-align: middle; cursor: pointer; border: 1px solid transparent; padding: .375rem .75rem; font-size: 1rem; border-radius: .25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; border-color: #212529; margin: 0 auto; width: 249px; }
+/******/
+#hakkimizda { position: relative; overflow: hidden; padding: 50px 0; }
+#hakkimizda figure { }
+#hakkimizda figure img { width: 100%; height: 100% }
+#hakkimizda .bg { position: relative }
+#hakkimizda .icerik { position: absolute; top: 35px; left: 35px; background: var(--tema-renk1); padding: 60px 45px; width: 410px; max-width: 100%; color: var(--tema-renk3); }
+#hakkimizda .icerik p { }
+#hakkimizda .icerik p:first-child { position: relative; font-size: 28px; line-height: 37px; font-weight: 600; letter-spacing: 1px }
+#hakkimizda .icerik p:nth-child(2) { position: relative; font-size: 16px; margin: 25px 0 0 }
+#hakkimizda .icerik p:nth-child(2) em { font-size: 16px; letter-spacing: 1px }
+#hakkimizda .icerik p:nth-child(2) strong { font-weight: 400; letter-spacing: 1px; line-height: 36px }
+/******/
+#hakkimizdaIcerik { margin: 50px 0 }
+#hakkimizdaIcerik .baslik { font-size: 28px; line-height: 36px; font-weight: 700; font-style: normal; letter-spacing: 0; text-transform: none; margin: 0 0 30px; color: var(--tema-renk1) }
+#hakkimizdaIcerik .icerik { font-size: 18px; line-height: 30px; text-align: center; color: var(--tema-renk2); }
+#hakkimizdaIcerik .icerik p { margin-bottom: 15px }
+#hakkimizdaIcerik .icerik p:last-child { margin: 0 }
+/******/
+#firmaDegerler { margin: 75px 0 }
+#firmaDegerler .row { margin: 0 -10px }
+#firmaDegerler .title { font-size: 33px; line-height: 36px; font-weight: 700; font-style: normal; letter-spacing: 0; text-transform: none; margin: 0 0 30px; color: var(--tema-renk2); text-align: center }
+#firmaDegerler .item { margin: 10px; display: flex }
+#firmaDegerler .item figure { width: 50px; height: 50px; margin-right: 24px; background: var(--tema-renk2); border-radius: 50% }
+#firmaDegerler .item figure img { width: 30px; height: 30px; margin: 11px 25px 20px 10px; padding: 3px 5px; }
+#firmaDegerler .item .kapsul { /* width: 75%; */ }
+#firmaDegerler .item .kapsul .baslik { font-size: 22px; font-weight: 700; line-height: 40px; margin: 0; color: var(--tema-renk2); }
+#firmaDegerler .item .kapsul .ozet { font-size: 16px; line-height: 25px; margin: 0 0 15px; color: var(--tema-renk2); }
+/******/
+#firmaReferans { padding: 75px 0; position: relative; background-position: center center; background-repeat: no-repeat; background-size: cover }
+#firmaReferans:before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: var(--tema-renk3); }
+#firmaReferans .kapsul { color: var(--tema-renk2); text-align: center; margin-bottom: 75px }
+#firmaReferans .kapsul .baslik { margin-bottom: 25px; font-size: 34px; line-height: 36px; font-weight: 700 }
+#firmaReferans .kapsul .icerik { font-size: 16px; line-height: 32px; letter-spacing: 1px; margin: 0 auto; }
+#firmaReferansSwiper { width: 100% }
+#firmaReferansSwiper .swiper-wrapper { justify-content: space-between }
+#firmaReferansSwiper figure { }
+#firmaReferansSwiper figure img { margin: 0 auto }
+#firmaReferans .swiper-pagination-bullet { background: #fff }
+#firmaReferans .swiper-pagination-bullet-active { background: 0 0; border-color: #fff }
+/******/
+.nedirIcerik, .altSayfaHaber { font-size: 14px; line-height: 23px; color: #555; min-height: 500px; margin-bottom: 60px }
+.altSayfaHaber .resim { margin: 0 0 20px; max-height: 325px; overflow: hidden }
+.altSayfaHaber .resim img { margin: 0 auto; display: block; width: 100% }
+.altSayfaHaber h3 { color: #333; margin-top: 15px; line-height: 27px; font-size: 14px }
+.nedirIcerik h1, .altSayfaHaber h1 { color: var(--tema-renk2); letter-spacing: .8px; font-weight: bolder; margin-bottom: 15px; position: relative; font-size: 24px }
+.nedirIcerik h2, .altSayfaHaber h2 { color: var(--tema-renk2); letter-spacing: .8px; margin-bottom: 15px; position: relative; font-size: 20px }
+ul.icMenu { list-style-type: none; padding: 0; width: 100%; padding-right: 15px }
+ul.icMenu .hizli { font-weight: 600; color: var(--tema-renk2); padding: 32px 0px; font-size: 22px }
+ul.icMenu li { position: relative; padding: 0; padding-right: 20px; padding-bottom: 5px; }
+ul.icMenu li a { display: block; font: 400 14px exo,sans-serif; color: #7b7b7b; padding: 16px; text-decoration: none; background: #f4f3f3; margin-bottom: 3px; letter-spacing: 1px }
+ul.icMenu li a.hover { background-color: #e1e0e0; color: #9c9c9c }
+ul.icMenu li a.active { background: #888; color: #dadada }
+ul.icMenu li a:hover:not(.active) { background-color: #e1e0e0; color: #9c9c9c }
+ul.icMenu2 { width: 250px; float: left; margin-right: 15px }
+ul.icMenu li.kategoriM a { background: #d9d9d9; padding: 25px 20px; border-radius: 5px }
+/******/
+.nedirIcerik, .altSayfaHaber { font-size: 14px; line-height: 23px; color: var(--tema-renk2); min-height: 500px; margin-bottom: 60px }
+.altSayfaHaber .resim { margin: 0 0 20px; max-height: 325px; overflow: hidden }
+.altSayfaHaber .resim img { margin: 0 auto; display: block; width: 100% }
+.altSayfaHaber h3 { color: #333; margin-top: 15px; line-height: 27px; font-size: 14px }
+.nedirIcerik h1, .altSayfaHaber h1 { color: var(--tema-renk2); letter-spacing: .8px; font-weight: bolder; margin-bottom: 15px; position: relative; font-size: 24px }
+.altSayfaHaber .ozetGec { color: #666; margin: 5px 0; font-size: 12px }
+.altSayfaHaber .ozetGec span { display: inline-block; margin-right: 20px }
+.altSayfaHaber .icerik { margin-top: 30px }
+.altSayfaHaber .icerik a { color: blue }
+/******/
+#sss { margin: 85px 0 120px 0; }
+#sss h1 { color: var(--tema-renk2); }
+#sss h2 { text-align: center; color: var(--tema-renk2); letter-spacing: 2px; font-weight: 700; font-size: 22px; margin: 0 0 20px }
+#sss .item { display: block; margin-bottom: 11px; }
+#sss .item a { background: #0064b026; position: relative; display: block; color: var(--tema-renk2); font-size: 15px; padding: 22px 21px; }
+#sss .item a:after { content: ''; display: inline-block; width: 0; margin-left: 25px; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 6px solid #4b5d72 }
+#sss .item a.active:after { content: ''; border-top: initial; border-bottom: 6px solid #4b5d72 }
+#sss div.cevap { padding: 5px 21px; font-size: 15px; color: var(--tema-renk2); display: none; }
+/******/
+#subeHarita { margin: 35px 0; }
+#subeHarita h4 { text-align: center; font-size: 24px; }
+#subeHarita iframe { width: 100%; padding: 0 10px; }
+/******/
+#subeBilgi { margin: 0 0 30px 0; }
+#subeBilgi h4 { }
+#subeBilgi p { line-height: 30px; padding: 7px 0px; width: 85%; }
+#subeBilgi p span.icon { }
+#subeBilgi p span.icon i.ikonalt { }
+#subeBilgi p span.icon i.ikonalt svg { }
+/******/
+@media (min-width: 1901px) {
+}
+
+@media (min-width: 1601px) and (max-width: 1900px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+}
+
+@media (max-width: 767px) {
+    #uygulamaAlanlari { padding: 35px 0 30px 0; }
+    #uygulamaAlanlari .kapsul .title { font-family: var(--baslik-fontu); color: var(--tema-renk2); font-size: 35px; text-align: center; font-weight: 600; }
+    #hizmetler { padding: 50px 0; }
+    #ourCustomer .kapsul .aciklama { font-family: 'Roboto', sans-serif; color: #242a56; font-size: 17px; line-height: 27px; font-weight: 400; text-align: center; width: 650px; max-width: 100%; margin: 0 auto; padding: 0 0 25px 0; }
+    #about { padding: 0; }
+    #about .kapsol .title { font-family: var(--baslik-fontu); color: var(--tema-renk2); font-size: 40px; font-weight: 600; padding: 0; }
+    #about .kapsag h2.metin { font-family: 'Roboto', sans-serif; color: #242a56; font-weight: 600; padding: 20px 0px; margin: 0; }
+    #wouldYou { padding: 50px 0; background-color: #eff2ff; }
+    #blog { padding: 50px 0; }
+    #firmaDegerler { margin: 25px 0; }
+    #firmaReferans .kapsul .icerik { font-size: 16px; line-height: 32px; letter-spacing: 1px; padding: 0; }
+    #hakkimizda .icerik { padding: 40px; width: 92%; left: 17px; background: #ffa800cf; }
+    #hakkimizda .icerik p:first-child { position: relative; font-size: 18px; line-height: 33px; font-weight: 600; letter-spacing: 1px; }
+}
